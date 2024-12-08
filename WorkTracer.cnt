@@ -1,0 +1,34 @@
+:Base WorkTracer.hlp
+1 Menus
+2 File menu=menu_file
+2 Setup menu=menu_setup
+2 View menu=menu_view
+2 Tickets menu=menu_tickets
+2 Quotations menu=menu_quotes
+2 Stock menu=menu_stock
+2 Accounts menu=menu_accounts
+2 Contracts menu=menu_contracts
+2 Scheduler menu=menu_sched
+2 Orders menu=menu_orders
+2 Reports menu=menu_reports
+2 Help menu=menu_help
+1 Tickets
+2 Managing tickets=manage_tickets
+1 Networking
+2 How to network WorkTracer=how_network
+1 Images
+2 Attaching photos of equipment=equip_photos
+1 Account holders
+2 Managing account holders=account_holders
+1 Integrating with TrackEasy
+2 Accessing TrackEasy customers=te_access
+1 Ticket numbering
+2 Options for ticket numbering=tick_num
+1 Recalls
+2 Working with recalls=work_remind
+1 Customers
+2 Adding and modifying customers=add_mod
+1 SMS text messaging
+2 Setting up SMS text messaging=sms_text
+1 Ticket reminders
+2 Working with reminders=work_alert
