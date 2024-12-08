@@ -1,1 +1,1 @@
-compinfo.dat
+clock.dat
