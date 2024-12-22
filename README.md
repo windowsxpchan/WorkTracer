@@ -6,4 +6,3 @@ I have found the need for this software in my workplace and have since been work
 
 I claim no ownership over the name WorkTracer or any of the original codebase created by GrenSoft.
 
-<img src="https://foneunlocker.tech/corporate/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-13-at-20.57.32_4133ea49-e1723640787157.jpg" alt="iFlexIT Solutions LTD Logo">
