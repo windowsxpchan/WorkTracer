@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>2. Adding Stock</title>
+    <meta name="generator" content="Serif WebPlus X8">
+    <meta name="viewport" content="width=960">
+    <link rel="stylesheet" type="text/css" href="../wpscripts/wpstyles.css">
+    <style type="text/css">
+      .OBJ-1,.OBJ-1:link,.OBJ-1:visited { background-image:url('../wpimages/wp6ab6ee94_06.png');background-repeat:no-repeat;background-position:0px 0px;text-decoration:none;display:block;position:absolute; }
+      .OBJ-1:hover { background-position:0px -60px; }
+      .OBJ-1:active,a:link.OBJ-1.Activated,a:link.OBJ-1.Down,a:visited.OBJ-1.Activated,a:visited.OBJ-1.Down,.OBJ-1.Activated,.OBJ-1.Down { background-position:0px -30px; }
+      .OBJ-1:focus { outline-style:none; }
+      button.OBJ-1 { background-color:transparent;border:none 0px;padding:0;display:inline-block;cursor:pointer; }
+      button.OBJ-1:disabled { pointer-events:none; }
+      .OBJ-1.Inline { display:inline-block;position:relative;line-height:normal; }
+      .OBJ-1 span,.OBJ-1:link span,.OBJ-1:visited span { color:#666666;font-family:Tahoma,sans-serif;font-weight:normal;text-decoration:none;text-align:center;text-transform:none;font-style:normal;left:2px;top:9px;width:76px;height:13px;line-height:13px;font-size:10px;display:block;position:absolute;cursor:pointer; }
+      .OBJ-1.Disabled span,a:link.OBJ-1.Disabled span,a:visited.OBJ-1.Disabled span,a:hover.OBJ-1.Disabled span,a:active.OBJ-1.Disabled span { color:#cccccc; }
+      .OBJ-2 { line-height:30px; }
+      .OBJ-3,.OBJ-3:link,.OBJ-3:visited { background-image:url('../wpimages/wp1c1244c4_06.png');background-repeat:no-repeat;background-position:0px 0px;text-decoration:none;display:block;position:absolute; }
+      .OBJ-3:focus { outline-style:none; }
+      button.OBJ-3 { background-color:transparent;border:none 0px;padding:0;display:inline-block;cursor:pointer; }
+      button.OBJ-3:disabled { pointer-events:none; }
+      .OBJ-3.Inline { display:inline-block;position:relative;line-height:normal; }
+      .OBJ-3 span,.OBJ-3:link span,.OBJ-3:visited span { color:#666666;font-family:Tahoma,sans-serif;font-weight:normal;text-decoration:none;text-align:center;text-transform:none;font-style:normal;left:9px;top:3px;width:130px;height:13px;line-height:13px;font-size:10px;display:block;position:absolute;cursor:pointer; }
+      .OBJ-3:hover span { color:#000000; }
+      .OBJ-3:active span,a:link.OBJ-3.Activated span,a:link.OBJ-3.Down span,a:visited.OBJ-3.Activated span,a:visited.OBJ-3.Down span,.OBJ-3.Activated span,.OBJ-3.Down span { color:#000000; }
+      .OBJ-3.Disabled span,a:link.OBJ-3.Disabled span,a:visited.OBJ-3.Disabled span,a:hover.OBJ-3.Disabled span,a:active.OBJ-3.Disabled span { color:#b2b2b2; }
+      .OBJ-4 { line-height:20px; }
+      .C-1 { line-height:18.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
+    </style>
+    <script type="text/javascript" src="../wpscripts/jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $("a.ActiveButton").bind({ mousedown:function(){if ( $(this).attr('disabled') === undefined ) $(this).addClass('Activated');}, mouseleave:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}, mouseup:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}});
+      });
+    </script>
+  </head>
+  <body style="height:1200px;background:#ffffff;">
+    <div id="divMain" style="background:transparent;margin-left:auto;margin-right:auto;position:relative;width:960px;height:1200px;">
+      <div style="position:absolute;left:0px;top:130px;width:960px;height:64px;">
+        <a href="../Manual.html" id="nav_34_B1" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:440px;top:0px;width:80px;height:30px;">
+          <span>Home</span>
+        </a>
+      </div>
+      <img alt="" src="../wpimages/wp74e103f1_06.png" style="position:absolute;left:272px;top:27px;width:417px;height:78px;">
+      <div style="position:absolute;left:33px;top:183px;width:893px;height:1786px;overflow:hidden;">
+        <p class="Body"><span class="C-1">&nbsp;2. Adding stock</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">To add a stock item to the WorkTracer database, click on Add Stock item from the Stock menu, click on the stock icon (pair of cans) on the toolbar, or press the F4 key.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">The field for unit quantity could be “gallons” or “litres” in the case of fluids. In the case of something like brake shoes it could be “set”. In the case of items which are sold singly such as fan belts, you could leave this field blank.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">The fields for categories could be, for example, “hoses”, “coolants”, “tools”, “tyres”, etc.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">The program will prompt with a stock number, but you may override this with your own number (such as the UPC code).</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">Indicate which taxes apply to the stock item.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">If you want the stock price to be flexible when you are selling the item, leave the sales price field blank.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">You can set up a standard markup for stock prices by selecting Stock prices from the Miscellaneous submenu of the Setup menu. Then when you enter the cost price for a stock item the sales price will be calculated automatically.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">Click on the Print labels button to print barcode labels for the stock.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">You can also print barcode labels for stock by selecting Print barcode labels from the Stock menu. Identify the stock item and enter the number of labels to print. Labels print on a label printer such as a Brother QL-<wbr>500. We recommend 29mm x 90mm labels.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">If the stock is a major item which you sell with a warranty, click on the Add serial numbers button so that you can enter serial numbers for the items and track the warranty end date after you sell an item. If the item is returned during the warranty period the ticket will be flagged as warranty.</span></p>
+        <p class="Body"><span class="C-1"><br></span></p>
+        <p class="Body"><span class="C-1">You can also add stock by clicking on the New stock item button on the ticket screen or the quotation screen, or by clicking on Add new stock item to database on the Sell stock screen. </span></p>
+      </div>
+      <div id="nav_34_B1M" style="position:absolute;visibility:hidden;width:446px;height:20px;">
+        <a href="start.html" id="nav_34_B1M_L1" class="OBJ-3 ActiveButton OBJ-4" style="display:block;position:absolute;left:0px;top:0px;width:148px;height:20px;">
+          <span>1.&nbsp;Getting&nbsp;Started</span>
+        </a>
+        <a href="addstock.html" id="nav_34_B1M_L2" class="OBJ-3 ActiveButton Down OBJ-4" style="display:block;position:absolute;left:149px;top:0px;width:148px;height:20px;">
+          <span>2.&nbsp;Adding&nbsp;Stock</span>
+        </a>
+        <a href="worktickets.html" id="nav_34_B1M_L3" class="OBJ-3 ActiveButton OBJ-4" style="display:block;position:absolute;left:298px;top:0px;width:148px;height:20px;">
+          <span>3.&nbsp;Managing&nbsp;Work&nbsp;Tickets</span>
+        </a>
+      </div>
+    </div>
+    <script type="text/javascript" src="../wpscripts/jsMenu.js"></script>
+    <script type="text/javascript">
+      wpmenustack.setCurrent(['nav_34_B1M_L2']);
+      wpmenustack.setRollovers([['nav_34_B1','nav_34_B1M',{"m_vertical":true}]]);
+      wpmenustack.setMenus(['nav_34_B1M'],{"m_hOffset":0,"m_hPosition":0,"m_vAlignment":3});
+    </script>
+  </body>
+</html>
